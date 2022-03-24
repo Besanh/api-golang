@@ -1,0 +1,13 @@
+- GIN, BUN
+- function viet hoa chu cai dau tien thi ben ngoai goi vao duoc, 
+con khong viet hoa thi chi su dung ben trong file do, luon luon co receiver argument trong nay
+- GIN: middleware, urlencode, JSONP
+- Cac function khong co receiver arg thi su dung ben ngoai nhu sau:
+import "a/b"
+s := b.<Method>
+- folder service la controller
+- folder repository la model
+- main.go la noi khoi tao tat ca
+- common/model la noi chua khoi tao bang
+
+De return interface{} cua ham thi su dung map[type]interface{}{...}
